@@ -1,0 +1,107 @@
+.booklist-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+ 
+.booklist-container .search-fields {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+ 
+.booklist-container .search-fields>div {
+    margin-bottom: 10px;
+    flex: 1 1 auto;
+}
+ 
+.search-by {
+    margin-left: 20px;
+    margin-right: 5px;
+}
+ 
+.booklist-container label {
+    font-weight: bold;
+}
+ 
+.booklist-container select,
+.booklist-container input[type="text"],
+.booklist-container input[type="number"] {
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+ 
+.booklist-container button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border: 2px solid #052c56;
+    border-radius: 10px;
+    width: 33%;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 33%;
+    margin-right: 33%;
+    transition: transform 0.3s ease-in-out;
+}
+ 
+.booklist-container button:hover {
+    transform: scale(1.1);
+}
+ 
+.booklist-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+ 
+.booklist-container li {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+ 
+.booklist-container h3 {
+    cursor: pointer;
+    color: #007bff;
+}
+ 
+.booklist-container p {
+    margin: 10px 0;
+}
+ 
+.booklist-container p:first-child {
+    font-weight: bold;
+}
+ 
+.booklist-container ul li {
+    margin-left: 20px;
+}
+ 
+.booklist-container input[type="text"] {
+    width: 100%;
+}
+ 
+.booklist-container input[type="number"] {
+    width: 100%;
+    max-width: 60px;
+}
+ 
+.booklist-container button:focus {
+    outline: none;
+}
+ 
+.booklist-container input[type="text"]:focus,
+.booklist-container input[type="number"]:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 3px #007bff;
+}
+ 
+.search-button {
+    width: 33% !important;
+    margin-left: 33%;
+    margin-right: 33%;
+}
