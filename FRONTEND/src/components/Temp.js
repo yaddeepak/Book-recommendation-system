@@ -6,7 +6,7 @@ function Temp () {
     axios.get('https://www.googleapis.com/books/v1/volumes', {
         params: {
           q: 'intitle', // Your search query here
-          key: 'AIzaSyBTcRHaVAQgoEfDDGr3teAcKD_6RAgAUjo' // Replace with your API key
+          key: '' // Replace with your API key
         }
       })
         .then(response => {
